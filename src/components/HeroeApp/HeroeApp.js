@@ -21,6 +21,7 @@ export default class HeroeApp extends Component {
           style={{ width: "20rem" }}
         >
           <img
+            loading="lazy"
             src={this.state.heroe ? this.state.heroe.images.sm : null}
             className="card-img-top pt-3"
             alt="..."
@@ -51,7 +52,12 @@ export default class HeroeApp extends Component {
               className="btn btn-outline-primary"
               onClick={this.handlerNavigation}
             >
-              <span> {this.state.lazy ? LANGUAGES.HEROEAPP.WATCH : LANGUAGES.HEROEAPP.BACK } </span>
+              <span>
+                {" "}
+                {this.state.lazy
+                  ? LANGUAGES.HEROEAPP.WATCH
+                  : LANGUAGES.HEROEAPP.BACK}{" "}
+              </span>
             </button>
           </div>
         </div>
