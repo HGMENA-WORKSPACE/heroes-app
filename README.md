@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[Preview](https://hgmena-workspace.github.io/heroes-app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This project consults the api [superhero-api@0.3.0](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/all.json).
